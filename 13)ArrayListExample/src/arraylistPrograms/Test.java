@@ -13,6 +13,5 @@ public class Test {
         a1.add(null); // null allowed
         a1.add(10); // duplicate integer insertion
         System.out.println(a1);
-
     }
 }
