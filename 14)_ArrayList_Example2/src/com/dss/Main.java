@@ -14,9 +14,9 @@ public class Main {
         al.add(10);
 
         System.out.println("arraylist--"+al.toString());   // toString- stringify
-        //to print objects as well  we need to use forEach loop
+        //to read data from  objects along with other data  we  use forEach loop
         for (Object o: al) {
-            if(o instanceof Student){
+            if(o instanceof Student){  // checking type
                 Student std= (Student)o;  // typecasting is required for objects
                 System.out.println("student object data--->id is "+std.sid+ " and name "+std.sname) ;
             }
@@ -38,3 +38,8 @@ public class Main {
         }
     }
 }
+
+/*Conclusion : from this example we find out that collections are not type safe
+bcoz we need to check type and typecasting is needed while reading data from collection(ArrayList is using right now)
+so to overcome these two problems in collections we use concept of generics which make collections typsafe.
+ */
