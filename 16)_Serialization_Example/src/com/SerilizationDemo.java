@@ -8,7 +8,7 @@ import java.io.ObjectOutputStream;
 public class SerilizationDemo {
 	
 	public static void main(String[] args) {
-		Employee empObj = new Employee(1, "shilpa");
+		Employee empObj = new Employee(1, "shilpa", "abcCompany");
 		
 		String fileName = "DemoFile.ser";
 		
